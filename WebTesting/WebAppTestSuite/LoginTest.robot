@@ -1,8 +1,8 @@
 *** Settings ***
 Suite Setup         Launch Application
 Suite Teardown      Clear SUT To Initial State
-Resource          ../Keywords/LaunchApplication.robot
-Resource    ../Keywords/LoginTestKeywords.robot
+Resource          ../../WebTesting/WebAppKeywords/LaunchApplication.robot
+Resource    ../../WebTesting/WebAppKeywords/LoginTestKeywords.robot
 
 *** Test Cases ***
 Verify user is able to login with valid credentials

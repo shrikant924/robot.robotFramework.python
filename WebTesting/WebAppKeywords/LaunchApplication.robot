@@ -1,6 +1,6 @@
 *** Settings ***
 Library        Selenium2Library
-Resource          ../TestData/TestConfig.resource
+Resource          ../WebAppTestData/TestConfig.resource
 
 *** Keywords ***
 Launch Application

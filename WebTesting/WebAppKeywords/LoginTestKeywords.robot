@@ -1,7 +1,7 @@
 *** Settings ***
 Library     Selenium2Library
-Resource    ../TestData/TestConfig.resource
-Resource    ../Objects/Locators/LoginPageLocators.resource
+Resource    ../WebAppTestData/TestConfig.resource
+Resource    ../../WebTesting/WebAppPageObjects/Locators/LoginPageLocators.resource
 
 *** Keywords ***
 Enter username into the textfield

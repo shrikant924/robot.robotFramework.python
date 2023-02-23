@@ -9,7 +9,6 @@ Select the country
     [Arguments]     ${country}
     Wait Until Page Contains    Select the country where you want to shop
     Click Element    ${countrySelectionDropDown}
-    Sleep    1s
     Select the country where you want to shop        ${country}
 
 enter your name
@@ -23,9 +22,7 @@ select Gender
     Click Element    //android.widget.RadioButton[@text='${gender}']
 
 Click on lets shop button
-    Sleep    1s
     Click Element    ${letsShpBtn}
-    Sleep    1s
 
 
 

@@ -10,6 +10,10 @@ def runTest():
     run('../AndroidTestSuite', outputdir=reportDirectory)
 
 
+def sendEmail():
+    pass
+
+
 class runner:
     if __name__ == "__main__":
         runTest()

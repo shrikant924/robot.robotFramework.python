@@ -10,7 +10,7 @@ Resource      ../../AndroidAppTesting/AndroidKeywords/productPage.resource
 *** Test Cases ***
 add product
      Start Activity     com.androidsample.generalstore    .AllProductsActivity
-     add product
+     Select Products To Add To Cart     PG 3
 
 
 

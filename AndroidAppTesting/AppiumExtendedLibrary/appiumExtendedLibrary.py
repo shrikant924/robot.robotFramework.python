@@ -1,6 +1,5 @@
 from AppiumLibrary import AppiumLibrary
-from appium.webdriver import appium_service
-from appium.webdriver.appium_service import find_executable, AppiumService, DEFAULT_PORT
+from appium.webdriver.appium_service import AppiumService, DEFAULT_PORT
 from appium.webdriver.common.appiumby import AppiumBy
 from robot.api.deco import keyword, library
 from robot.libraries.BuiltIn import BuiltIn

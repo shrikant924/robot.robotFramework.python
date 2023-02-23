@@ -5,9 +5,9 @@ from robot import run
 
 
 def runTest():
-    reportDirectory = os.path.join('../WebAppTestResults/', datetime.now().strftime('%d-%m-%y_%H-%M-%S'))
+    reportDirectory = os.path.join('../../TestResults/', datetime.now().strftime('%d-%m-%y_%H-%M-%S'))
     os.makedirs(reportDirectory)
-    run('../WebAppTestSuite', outputdir=reportDirectory)
+    run('../../TestSuite/Testcase/', outputdir=reportDirectory)
 
 
 def sendEmail():

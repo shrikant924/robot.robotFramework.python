@@ -1,5 +1,5 @@
 *** Variables ***
 ${AppURL}         https://www.saucedemo.com/
-${Browser}        Chrome
+${Browser}        headless chrome
 ${userName}       standard_user
 ${password}       secret_sauce

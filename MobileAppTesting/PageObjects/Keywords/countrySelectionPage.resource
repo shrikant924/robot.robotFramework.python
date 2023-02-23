@@ -1,7 +1,7 @@
 *** Settings ***
 Library     AppiumLibrary
 Library     appiumExtendedLibrary
-Resource    ../../AndroidAppTesting/AndroidObjects/Locators/LoginPageLocators.resource
+Resource    ../../PageObjects/Locators/LoginPageLocators.resource
 
 
 *** Keywords ***

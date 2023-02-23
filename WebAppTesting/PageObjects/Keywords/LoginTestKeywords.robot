@@ -1,8 +1,7 @@
 *** Settings ***
 Library     Selenium2Library
-Resource    ../WebAppTestData/TestConfig.resource
-Resource    ../../WebTesting/WebAppPageObjects/Locators/LoginPageLocators.resource
-
+Resource    ../../Config/TestConfig.resource
+Resource    ../../PageObjects/Locators/LoginPageLocators.resource
 *** Keywords ***
 Enter username into the textfield
     Wait Until Element Is Visible    ${userNameInputField}

@@ -11,4 +11,5 @@ def runTest():
 
 
 class runner:
-    runTest()
+    if __name__ == "__main__":
+        runTest()

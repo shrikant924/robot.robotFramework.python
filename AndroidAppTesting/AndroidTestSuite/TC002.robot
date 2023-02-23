@@ -5,7 +5,6 @@ Test Setup       Launch android Application
 Test Teardown    close android Application
 Resource    ../../commonUtils/commonKeywords.resource
 Resource    ../../AndroidAppTesting/AndroidKeywords/countrySelectionPage.resource
-Resource      ../../AndroidAppTesting/AndroidKeywords/productPage.resource
 
 *** Test Cases ***
 add product

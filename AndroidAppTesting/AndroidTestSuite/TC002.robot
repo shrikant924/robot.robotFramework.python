@@ -3,7 +3,7 @@ Suite Setup
 Suite Teardown
 Test Setup       Launch android Application
 Test Teardown    close android Application
-Resource    ../../commonUtils/commonKeywords.resource
+Resource        ../../AndroidAppTesting/AndroidKeywords/commonKeywords.resource
 Resource    ../../AndroidAppTesting/AndroidKeywords/countrySelectionPage.resource
 
 *** Test Cases ***

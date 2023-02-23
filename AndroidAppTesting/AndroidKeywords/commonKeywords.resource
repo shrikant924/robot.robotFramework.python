@@ -1,6 +1,6 @@
 *** Settings ***
 Library     AppiumLibrary
-Library     appiumExtendedLibrary
+Library         ../../AndroidAppTesting/AppiumExtendedLibrary/appiumExtendedLibrary.py
 Resource      ../../AndroidAppTesting/AndroidTestData/TestConfig.resource
 Variables       ../../AndroidAppTesting/AndroidTestData/Testdata.py
 
